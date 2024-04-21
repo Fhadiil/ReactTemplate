@@ -25,12 +25,14 @@ const AppLayout = ({ children }) => {
   };
 
   const links = [
-    { to: "/", label: "Home" },
+    { to: "/", label: "Fhadiil" },
     { to: "/signIn", label: "Login" },
     { to: "/register", label: "SignUp" },
   ];
 
-  const footerContent = <p>&copy; 2023 FAM DATA. All rights reserved.</p>;
+  const footerContent = (
+    <p>&copy; 2024 MA KATAGUM REACT TEMPLATE. All rights reserved.</p>
+  );
 
   return (
     <div style={layoutStyle}>
